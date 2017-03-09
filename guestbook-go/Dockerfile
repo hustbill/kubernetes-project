@@ -19,6 +19,6 @@ ADD ./public/index.html /app/public/index.html
 ADD ./public/script.js /app/public/script.js
 ADD ./public/style.css /app/public/style.css
 
-WORKDIR /app
+WORKDIR /app/guestbook
 CMD ["./guestbook"]
 EXPOSE 3000

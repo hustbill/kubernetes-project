@@ -16,8 +16,8 @@
 
 # Usage:
 #   [VERSION=v3] [REGISTRY="gcr.io/google_containers"] make build
-VERSION?=v3
-REGISTRY?=gcr.io/google_containers
+VERSION?=v1
+REGISTRY?=billyzhang2010/guestbook
 
 release: clean build push clean
 
